@@ -1,0 +1,22 @@
+{
+    "name": "mateusz/website_scraper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateusz",
+            "email": "mateusztumatek@interia.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "intervention/image": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mateusz\\WebsiteScraper\\": "src/"
+        }
+    }
+}
